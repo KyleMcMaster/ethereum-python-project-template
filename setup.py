@@ -48,7 +48,8 @@ setup(
     include_package_data=True,
     install_requires=[
         "eth-utils>=1,<2",
-    ],
+        "py-evm==0.2.0a40",
+    ,
     setup_requires=['setuptools-markdown'],
     python_requires='>=3.6, <4',
     extras_require=extras_require,
